@@ -18,6 +18,8 @@ LIBNAME ARCIPE '/sasprd/staging/staging_san1/S1_ORPSS/config/Arcipelago';
 %SET_ANAGRAFICA_FAR(&anno,&fase);
 %SET_UDO;
 
+/*variazione*/
+
 %macro comuni;
 data c; set ARCIPE.comuni ; run; 
 
