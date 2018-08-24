@@ -19,6 +19,7 @@ LIBNAME ARCIPE '/sasprd/staging/staging_san1/S1_ORPSS/config/Arcipelago';
 %SET_UDO;
 
 /*variazione*/
+pippo
 
 %macro comuni;
 data c; set ARCIPE.comuni ; run; 
